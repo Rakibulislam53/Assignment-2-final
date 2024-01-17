@@ -521,6 +521,95 @@ footer p {
 .deals-container {
   margin-top: 20px;
 }
+/* perfect section start */
+
+.perfect-container{
+  display: flex;
+  gap: 110px;
+  justify-content: space-around;
+  margin: 20px auto;
+  padding-left: 50px;
+
+}
+.perfect-container li{
+  color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+}
+.perfect-text h1{
+color: #131318;
+font-family: Mulish;
+font-size: 2.5rem;
+font-weight: 800;
+line-height: 60px;
+max-width: 448px; 
+}
+.perfect-image{
+  position: relative;
+}
+.icon3 h1{
+  color: whitesmoke;
+  text-align: center;
+  max-width: 276px;
+  position: absolute;
+  left: 30%;
+  bottom: 40%;
+}
+.icon-container{
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+}
+.icon-container2{
+  position: absolute;
+  left: 75%;
+  bottom: 15%;
+}
+.pause{
+  position: absolute;
+  left: 10%;
+  bottom: 15%;
+}
+.fa-solid1{
+  color: white;
+}
+.pause .fa-solid{
+  padding-right: 10px;
+}
+.play{
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  background-color:rgba(255, 255, 255, 0.558);
+  width: 85%;
+  height: 4px;
+}
+.play1{
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  background-color:rgb(221, 214, 214);
+  width: 10%;
+  height: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Mobile phone responsive max-width:600px */
 
@@ -730,4 +819,48 @@ footer p {
     font-weight: 800;
     transform: translate(-50%, -60%);
   }
+  .perfect-container{
+    flex-direction: column;
+  }
+  .perfect-image img{
+    width: 90%;
+    
+  }
+  .perfect-container ul{
+    padding-left: 10px;
+    
+  }
+  .perfect-container{
+    gap: 20px;
+    padding-left: 20px;
+  }
+  .icon3 h1{
+  color: whitesmoke;
+  text-align: center;
+  max-width: 276px;
+  position: absolute;
+  left: 10%;
+  bottom: 40%;
+}
+.play{
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  background-color:rgba(255, 255, 255, 0.558);
+  width: 80%;
+  height: 4px;
+}
+.play1{
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  background-color:rgb(221, 214, 214);
+  width: 10%;
+  height: 4px;
+}
+.perfect-text h1{
+  font-size: 2.5rem;
+}
+
+
 }
